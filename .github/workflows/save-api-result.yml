@@ -1,6 +1,7 @@
 name: Save API Result
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 5 1 * *'
 
@@ -20,9 +21,11 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
+    - run: npm install
+      working-directory: ./typescript/save-api-result
     - run: npm run build
       working-directory: ./typescript/save-api-result
-    - run: npm run get:evals
+    - run: npm run start
       working-directory: ./typescript/save-api-result
 
     - uses: stefanzweifel/git-auto-commit-action@v4
@@ -34,7 +37,7 @@ jobs:
         # Optional. Local and remote branch name where commit is going to be pushed
         #  to. Defaults to the current branch.
         #  You might need to set `create_branch: true` if the branch does not exist.
-        branch: data-fetch-${{ steps.date.outputs.date }}
+        # branch: data-fetch-${{ steps.date.outputs.date }}
 
         # Optional. Options used by `git-commit`.
         # See https://git-scm.com/docs/git-commit#_options
@@ -45,7 +48,7 @@ jobs:
         # See the `pathspec`-documentation for git
         # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
         # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-        file_pattern: data/*.json data/legacy/*.json
+        # file_pattern: data/*.json data/legacy/*.json
 
         # Optional. Local file path to the repository.
         # Defaults to the root of the repository.
