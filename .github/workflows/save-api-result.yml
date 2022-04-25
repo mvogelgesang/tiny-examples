@@ -32,7 +32,7 @@ jobs:
       with:
         # Optional. Commit message for the created commit.
         # Defaults to "Apply automatic changes"
-        commit_message: Automated data pull
+        commit_message: Automated data pull ${{ steps.nvm.outputs.date }}
 
         # Optional. Local and remote branch name where commit is going to be pushed
         #  to. Defaults to the current branch.
