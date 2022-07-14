@@ -25,6 +25,9 @@ activities may be subject to disciplinary action including criminal prosecution.
 console.log("apps.ocfo.gsa.gov", fuzzy(warningMessage, candidate[0]));
 console.log("sam.gov", fuzzy(warningMessage, candidate[1]));
 
-console.log("search long html", fuzzy(warningMessage, candidate[2]));
+console.log(
+  "search long html",
+  fuzzy(warningMessage, candidate[2], { returnMatchData: true })
+);
 
 console.log("search long html (negative)", fuzzy(warningMessage, candidate[3]));
