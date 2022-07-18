@@ -39,18 +39,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oex hello PERSON`](#oex-hello-person)
-* [`oex hello everyone`](#oex-hello-everyone)
-* [`oex help [COMMAND]`](#oex-help-command)
-* [`oex plugins`](#oex-plugins)
-* [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin)
-* [`oex plugins:inspect PLUGIN...`](#oex-pluginsinspect-plugin)
-* [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin-1)
-* [`oex plugins:link PLUGIN`](#oex-pluginslink-plugin)
-* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin)
-* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-1)
-* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-2)
-* [`oex plugins update`](#oex-plugins-update)
+- [CLI Resume Activity](#cli-resume-activity)
+- [Installation & Example](#installation--example)
+- [OCLIF Auto-Generated Docs](#oclif-auto-generated-docs)
+- [Table of Contents](#table-of-contents)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`oex hello PERSON`](#oex-hello-person)
+  - [`oex hello everyone`](#oex-hello-everyone)
+  - [`oex help [COMMAND]`](#oex-help-command)
+  - [`oex plugins`](#oex-plugins)
+  - [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin)
+  - [`oex plugins:inspect PLUGIN...`](#oex-pluginsinspect-plugin)
+  - [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin-1)
+  - [`oex plugins:link PLUGIN`](#oex-pluginslink-plugin)
+  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin)
+  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-1)
+  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-2)
+  - [`oex plugins update`](#oex-plugins-update)
 
 ## `oex hello PERSON`
 
