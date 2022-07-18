@@ -7,7 +7,7 @@ Finally, [CLI-Spinner](https://www.npmjs.com/package/cli-spinner) is used to mak
 ## Running
 
 ```sh
-npm i 
+npm i
 npm run build
 npm run start
 ```
