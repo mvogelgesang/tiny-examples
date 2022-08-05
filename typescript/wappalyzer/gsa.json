@@ -1,0 +1,464 @@
+{
+  "urls": {
+    "https://www.gsa.gov/": {
+      "status": 200
+    },
+    "https://www.gsa.gov/travel-resources": {
+      "status": 200
+    },
+    "https://www.gsa.gov/real-estate": {
+      "status": 200,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/real-estate)"
+    },
+    "https://www.gsa.gov/buying-selling": {
+      "status": 200,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/buying-selling)"
+    },
+    "https://www.gsa.gov/technology": {
+      "status": 200,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/technology)"
+    },
+    "https://www.gsa.gov/newsroom": {
+      "status": 301,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/about-us/newsroom)"
+    },
+    "https://www.gsa.gov/node/287": {
+      "status": 301
+    },
+    "https://www.gsa.gov/about-us/newsroom": {
+      "status": 200
+    },
+    "https://www.gsa.gov/events": {
+      "status": 301
+    },
+    "https://www.gsa.gov/about-us/events-and-training/gsa-events?gsaredirect=": {
+      "status": 200
+    },
+    "https://www.gsa.gov/electrifythefleet": {
+      "status": 301,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/buying-selling/products-services/transportation-logistics-services/fleet-management/fleet-electrification)"
+    },
+    "https://www.gsa.gov/lpoebil": {
+      "status": 301,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.gsa.gov/real-estate/gsa-properties/land-ports-of-entry-and-the-bipartisan-infrastructure-law?gsaredirect=)"
+    },
+    "https://www.gsa.gov/buying-selling/products-services/transportation-logistics-services/fleet-management/fleet-electrification": {
+      "status": 200
+    },
+    "https://www.gsa.gov/real-estate/gsa-properties/land-ports-of-entry-and-the-bipartisan-infrastructure-law?gsaredirect=": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "drupal",
+      "name": "Drupal",
+      "confidence": 100,
+      "version": null,
+      "icon": "Drupal.svg",
+      "website": "https://drupal.org",
+      "cpe": "cpe:/a:drupal:drupal",
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        }
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "PHP",
+      "confidence": 100,
+      "version": null,
+      "icon": "PHP.svg",
+      "website": "http://php.net",
+      "cpe": "cpe:/a:php:php",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "google-maps",
+      "name": "Google Maps",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Maps.svg",
+      "website": "http://maps.google.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 35,
+          "slug": "maps",
+          "name": "Maps"
+        }
+      ]
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "confidence": 100,
+      "version": null,
+      "icon": "Bootstrap.svg",
+      "website": "https://getbootstrap.com",
+      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "categories": [
+        {
+          "id": 66,
+          "slug": "ui-frameworks",
+          "name": "UI frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "uswds",
+      "name": "USWDS",
+      "confidence": 100,
+      "version": null,
+      "icon": "USWDS.svg",
+      "website": "https://designsystem.digital.gov",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-web-services",
+      "name": "Amazon Web Services",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "mustache",
+      "name": "Mustache",
+      "confidence": 100,
+      "version": "2.3.0",
+      "icon": "Mustache.png",
+      "website": "https://mustache.github.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "handlebars",
+      "name": "Handlebars",
+      "confidence": 100,
+      "version": "4.7.7",
+      "icon": "Handlebars.png",
+      "website": "http://handlebarsjs.com",
+      "cpe": "cpe:/a:handlebars.js_project:handlebars.js",
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "nginx",
+      "name": "Nginx",
+      "confidence": 100,
+      "version": null,
+      "icon": "Nginx.svg",
+      "website": "http://nginx.org/en",
+      "cpe": "cpe:/a:nginx:nginx",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        },
+        {
+          "id": 64,
+          "slug": "reverse-proxies",
+          "name": "Reverse proxies"
+        }
+      ]
+    },
+    {
+      "slug": "qualtrics",
+      "name": "Qualtrics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Qualtrics.svg",
+      "website": "https://www.qualtrics.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 73,
+          "slug": "surveys",
+          "name": "Surveys"
+        }
+      ]
+    },
+    {
+      "slug": "drupal-multisite",
+      "name": "Drupal Multisite",
+      "confidence": 100,
+      "version": null,
+      "icon": "Drupal.svg",
+      "website": "https://www.drupal.org/docs/multisite-drupal",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 88,
+          "slug": "hosting",
+          "name": "Hosting"
+        }
+      ]
+    },
+    {
+      "slug": "moment-js",
+      "name": "Moment.js",
+      "confidence": 100,
+      "version": "2.29.4",
+      "icon": "Moment.js.svg",
+      "website": "https://momentjs.com",
+      "cpe": "cpe:/a:momentjs:moment",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.6.0",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "fancybox",
+      "name": "FancyBox",
+      "confidence": 100,
+      "version": "3.3.5",
+      "icon": "FancyBox.png",
+      "website": "http://fancyapps.com/fancybox",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "eloqua",
+      "name": "Eloqua",
+      "confidence": 100,
+      "version": null,
+      "icon": "Oracle.svg",
+      "website": "http://eloqua.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 32,
+          "slug": "marketing-automation",
+          "name": "Marketing automation"
+        }
+      ]
+    },
+    {
+      "slug": "datatables",
+      "name": "DataTables",
+      "confidence": 100,
+      "version": "1.11.3",
+      "icon": "DataTables.png",
+      "website": "http://datatables.net",
+      "cpe": "cpe:/a:datatables:datatables.net",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "core-js",
+      "name": "core-js",
+      "confidence": 100,
+      "version": "2.6.12",
+      "icon": "core-js.png",
+      "website": "https://github.com/zloirock/core-js",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "aws-certificate-manager",
+      "name": "AWS Certificate Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/certificate-manager/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    },
+    {
+      "slug": "google-workspace",
+      "name": "Google Workspace",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Workspace.svg",
+      "website": "https://workspace.google.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 30,
+          "slug": "webmail",
+          "name": "Webmail"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-cloudfront",
+      "name": "Amazon Cloudfront",
+      "confidence": 100,
+      "version": null,
+      "icon": "Amazon-Cloudfront.svg",
+      "website": "http://aws.amazon.com/cloudfront/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    },
+    {
+      "slug": "popper",
+      "name": "Popper",
+      "confidence": 100,
+      "version": null,
+      "icon": "Popper.svg",
+      "website": "https://popper.js.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "babel",
+      "name": "Babel",
+      "confidence": 100,
+      "version": null,
+      "icon": "Babel.svg",
+      "website": "https://babeljs.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "docusign",
+      "name": "DocuSign",
+      "confidence": 100,
+      "version": null,
+      "icon": "DocuSign.svg",
+      "website": "https://www.docusign.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    }
+  ]
+}

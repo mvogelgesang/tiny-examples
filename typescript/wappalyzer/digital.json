@@ -1,0 +1,196 @@
+{
+  "urls": {
+    "https://digital.gov/": {
+      "status": 200
+    },
+    "https://digital.gov/news/": {
+      "status": 200
+    },
+    "https://digital.gov/events/": {
+      "status": 200
+    },
+    "https://digital.gov/resources/": {
+      "status": 200
+    },
+    "https://digital.gov/communities/": {
+      "status": 200
+    },
+    "https://digital.gov/services/": {
+      "status": 200
+    },
+    "https://digital.gov/about/": {
+      "status": 200
+    },
+    "https://digital.gov/subscribe/": {
+      "status": 200
+    },
+    "https://digital.gov/contribute/": {
+      "status": 200
+    },
+    "https://digital.gov/about/contact/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "uswds",
+      "name": "USWDS",
+      "confidence": 100,
+      "version": null,
+      "icon": "USWDS.svg",
+      "website": "https://designsystem.digital.gov",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-web-services",
+      "name": "Amazon Web Services",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "font-awesome",
+      "name": "Font Awesome",
+      "confidence": 100,
+      "version": null,
+      "icon": "font-awesome.svg",
+      "website": "https://fontawesome.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 17,
+          "slug": "font-scripts",
+          "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.6.0",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "crazy-egg",
+      "name": "Crazy Egg",
+      "confidence": 100,
+      "version": null,
+      "icon": "Crazy Egg.png",
+      "website": "http://crazyegg.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "confidence": 100,
+      "version": null,
+      "icon": "HubSpot.png",
+      "website": "https://www.hubspot.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 32,
+          "slug": "marketing-automation",
+          "name": "Marketing automation"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-cloudfront",
+      "name": "Amazon Cloudfront",
+      "confidence": 100,
+      "version": null,
+      "icon": "Amazon-Cloudfront.svg",
+      "website": "http://aws.amazon.com/cloudfront/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    },
+    {
+      "slug": "pwa",
+      "name": "PWA",
+      "confidence": 100,
+      "version": null,
+      "icon": "PWA.svg",
+      "website": "https://web.dev/progressive-web-apps/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    }
+  ]
+}
