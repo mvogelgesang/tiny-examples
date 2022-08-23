@@ -1,0 +1,16 @@
+{
+  "orgName": "child to parent navigation click handling",
+  "edition": "Enterprise",
+  "features": ["EnableSetPasswordInApi","Communities"],
+  "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

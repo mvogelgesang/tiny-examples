@@ -1,0 +1,10 @@
+.THIS nav {
+    font-family: "Open Sans", sans-serif;
+  }
+.THIS li {
+    list-style: none;
+    display: inline;
+  }
+.THIS li:not(:last-child):after {
+    content: " > ";
+  } 

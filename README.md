@@ -3,12 +3,23 @@
 Brief projects that aim to prototype specific functionality.
 
 - [Tiny Examples](#tiny-examples)
+  - [Salesforce](#salesforce)
+    - [Aura](#aura)
+      - [Child to Parent Navigation Click Handling](#child-to-parent-navigation-click-handling)
   - [Typescript](#typescript)
     - [CLI Resume Activity](#cli-resume-activity)
     - [Promises within For Loops](#promises-within-for-loops)
     - [Mocking FS](#mocking-fs)
     - [Puppeteer Dialog Boxes](#puppeteer-dialog-boxes)
     - [Save API Result](#save-api-result)
+
+## [Salesforce](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce)
+
+### [Aura](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/child-parent-nav-click)
+
+#### [Child to Parent Navigation Click Handling](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/child-parent-nav-click)
+
+A brief example to demonstrate how to handle click events for Navigation Menus when employing parent and child components. This is based off the content on [salesforcepoint.com](https://www.salesforcepoint.com/2020/12/how-to-pass-values-from-child-to-parent.html).
 
 ## [Typescript](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript)
 
