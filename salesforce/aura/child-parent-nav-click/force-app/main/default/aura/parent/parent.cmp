@@ -1,0 +1,41 @@
+<aura:component
+  extends="forceCommunity:navigationMenuBase"
+  implements="forceCommunity:availableForAllPageTypes"
+  access="global"
+>
+
+  <aura:attribute
+    name="navigationLinkSetId"
+    type="String"
+    description="Accepts navigationLinkSetId or Developer Name of the corresponding Navigation Menu. This component expects a multi-tiered menu, menu and sub-menu items."
+  />
+
+  <!-- attributes set via Component Edit Menu-->
+  <aura:attribute name="pageTitle" type="String" />
+
+  <!-- handlers -->
+  <aura:handler
+    name="clickEvent"
+    event="c:childClickEvent"
+    action="{!c.handleChildComponentClickEvent}"
+  />
+
+  <nav
+    class=""
+    aria-label="Breadcrumb"
+  >
+    <ol class="" aura:id="orderedList">
+      <!-- iterate-->
+      <aura:iteration items="{!v.menuItems}" var="item" indexVar="index">
+        <c:child
+          label="{!item.label}"
+          id="{!item.id}"
+          index="{!item.index}"
+        />
+      </aura:iteration>
+      <li class="" aria-current="page">
+        <span>{!v.pageTitle}</span>
+      </li>
+    </ol>
+  </nav>
+</aura:component>
