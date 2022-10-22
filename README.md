@@ -5,6 +5,7 @@ Brief projects that aim to prototype specific functionality.
 - [Tiny Examples](#tiny-examples)
   - [React Native](#react-native)
     - [Swipeable Navigation](#swipeable-navigation)
+    - [Wavy SVGs](#wavy-svgs)
   - [Salesforce](#salesforce)
     - [Aura](#aura)
       - [Child to Parent Navigation Click Handling](#child-to-parent-navigation-click-handling)
@@ -20,6 +21,10 @@ Brief projects that aim to prototype specific functionality.
 ### [Swipeable Navigation](https://github.com/mvogelgesang/tiny-examples/tree/main/react-native/swipeable-nav)
 
 Demonstration of using [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/docs/) and [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) to transition between screens via swipe actions.
+
+### [Wavy SVGs](https://github.com/mvogelgesang/tiny-examples/tree/main/react-native/wavy-svgs)
+
+Example showing how to construct a View along with an SVG element that caps the View. The SVG and View look like a seamless unit and scale as the device width changes.
 
 ## [Salesforce](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce)
 
