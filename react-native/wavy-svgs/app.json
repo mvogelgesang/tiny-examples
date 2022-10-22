@@ -3,6 +3,7 @@
     "name": "wavy-svgs",
     "slug": "wavy-svgs",
     "version": "1.0.0",
+    "owner": "mvogelgesang",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
