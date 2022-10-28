@@ -105,3 +105,6 @@ dist
 
 # Typescript
 dist/
+
+# Mac
+.DS_Store
