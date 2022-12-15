@@ -1,0 +1,15 @@
+{
+  "name": "mosh",
+  "version": "1.0.0",
+  "description": "a beginner example from codewithmosh.com course 206545",
+  "main": "main.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Vogelgesang, @mvogelgesang",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
