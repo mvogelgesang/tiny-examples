@@ -14,6 +14,7 @@ Brief projects that aim to prototype specific functionality.
     - [Promises within For Loops](#promises-within-for-loops)
     - [Mocking FS](#mocking-fs)
     - [Puppeteer Dialog Boxes](#puppeteer-dialog-boxes)
+    - [Puppeteer Local File](#puppeteer-local-file)
     - [Save API Result](#save-api-result)
 
 ## [React Native](https://github.com/mvogelgesang/tiny-examples/tree/main/react-native)
@@ -53,6 +54,10 @@ Implementation of [https://medium.com/@shashankshekhar_40767/using-jest-mocking-
 ### [Puppeteer Dialog Boxes](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript/puppeteer-dialog-boxes)
 
 Given a URL or list of URLs, navigates to the page and prints any content from a Javascript alert to the console.
+
+### [Puppeteer Local File](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript/puppeteer-local-file)
+
+A quick working example showing how to navigate to local HTML files with Puppeteer. This is helpful when writing automated tests as the test does not burden a real website and specific testing conditions can be replicated.
 
 ### [Save API Result](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript/save-api-result)
 
