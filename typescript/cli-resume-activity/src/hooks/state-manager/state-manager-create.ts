@@ -6,8 +6,8 @@ import {existsSync, mkdirSync, writeFileSync} from 'node:fs'
  * @param options object containing 'command' and 'data' keys
  * @returns Promise<void>
  */
-const hook: Hook<'state_manager:create'> = async function (options): Promise<void> {
-  if (!options.command || !options.nameList) {
+const hook: Hook<'state-manager:create'> = async function (options): Promise<void> {
+  if (!options.nameList) {
     this.log('Missing parameters to create cached file, exiting...', 'info')
     return
   }
@@ -17,7 +17,7 @@ const hook: Hook<'state_manager:create'> = async function (options): Promise<voi
     mkdirSync(this.config.cacheDir)
   }
 
-  writeFileSync(`${this.config.cacheDir}/nameList.json`, JSON.stringify(options.nameList))
+  writeFileSync(`${this.config.cacheDir}/${options.fileName}.json`, JSON.stringify(options.nameList))
 }
 
 export default hook

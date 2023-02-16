@@ -30,7 +30,7 @@ $ npm install -g oclif-hello-world
 $ oex COMMAND
 running command...
 $ oex (--version)
-oclif-hello-world/0.0.0 darwin-x64 node-v16.15.1
+oclif-hello-world/0.0.0 darwin-arm64 node-v16.18.1
 $ oex --help [COMMAND]
 USAGE
   $ oex COMMAND
@@ -39,24 +39,18 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-- [CLI Resume Activity](#cli-resume-activity)
-- [Installation & Example](#installation--example)
-- [OCLIF Auto-Generated Docs](#oclif-auto-generated-docs)
-- [Table of Contents](#table-of-contents)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`oex hello PERSON`](#oex-hello-person)
-  - [`oex hello everyone`](#oex-hello-everyone)
-  - [`oex help [COMMAND]`](#oex-help-command)
-  - [`oex plugins`](#oex-plugins)
-  - [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin)
-  - [`oex plugins:inspect PLUGIN...`](#oex-pluginsinspect-plugin)
-  - [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin-1)
-  - [`oex plugins:link PLUGIN`](#oex-pluginslink-plugin)
-  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin)
-  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-1)
-  - [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-2)
-  - [`oex plugins update`](#oex-plugins-update)
+* [`oex hello PERSON`](#oex-hello-person)
+* [`oex hello everyone`](#oex-hello-everyone)
+* [`oex help [COMMAND]`](#oex-help-command)
+* [`oex plugins`](#oex-plugins)
+* [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin)
+* [`oex plugins:inspect PLUGIN...`](#oex-pluginsinspect-plugin)
+* [`oex plugins:install PLUGIN...`](#oex-pluginsinstall-plugin-1)
+* [`oex plugins:link PLUGIN`](#oex-pluginslink-plugin)
+* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin)
+* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-1)
+* [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin-2)
+* [`oex plugins update`](#oex-plugins-update)
 
 ## `oex hello PERSON`
 
@@ -84,7 +78,7 @@ _See code: [dist/commands/hello/index.ts](https://github.com/oclif/hello-world/b
 
 ## `oex hello everyone`
 
-Say hello world
+Say hello to everyone in a list
 
 ```
 USAGE
@@ -94,12 +88,10 @@ FLAGS
   -r, --resume  Flag denoting whether to resume the operation where it left off previously.
 
 DESCRIPTION
-  Say hello world
+  Say hello to everyone in a list
 
 EXAMPLES
   $ oex hello everyone
-  hello Liam
-  hello Olivia
   ... (./src/commands/hello/world.ts)
 ```
 
