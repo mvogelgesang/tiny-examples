@@ -1,7 +1,7 @@
 import {Command, Flags} from '@oclif/core'
 
 export default class Everyone extends Command {
-  static description = 'Say hello world';
+  static description = 'Say hello to everyone in a list';
   static nameList: string[] = [
     'Liam',
     'Olivia',
@@ -107,8 +107,6 @@ export default class Everyone extends Command {
 
   static examples = [
     `$ oex hello everyone
-hello Liam
-hello Olivia
 ... (./src/commands/hello/world.ts)
 `,
   ];
@@ -124,6 +122,8 @@ hello Olivia
 
   static args = [];
 
+  static fileName = 'nameList';
+
   async run(): Promise<void> {
     const {flags} = await this.parse(Everyone)
 
@@ -132,23 +132,23 @@ hello Olivia
       return new Promise(resolve => setTimeout(resolve, time))
     }
 
-    this.log('resume flag:', flags.resume)
     if (flags.resume) {
-      const result = await (await this.config.runHook('state_manager:retrieve', {})).successes[0].result
+      this.log('Attempting to resume previous operation.')
+      const result = await (await this.config.runHook('state-manager:retrieve', {fileName: Everyone.fileName})).successes[0].result
       if (result.length > 0) {
-        this.log(`Resuming previous operation with ${result.length} records`)
+        this.log(`${result.length} records found`)
         Everyone.nameList = result
       } else {
         this.log('Data was not present in the cache, operation will restart from the beginning')
       }
     }
 
-    await this.config.runHook('state_manager:create', {nameList: Everyone.nameList})
+    await this.config.runHook('state-manager:create', {nameList: Everyone.nameList, fileName: Everyone.fileName})
 
     for (const element of Everyone.nameList) {
       this.log(`hello ${element}!`)
       // eslint-disable-next-line no-await-in-loop
-      await this.config.runHook('state_manager:update', {})
+      await this.config.runHook('state-manager:update', {fileName: Everyone.fileName})
       // eslint-disable-next-line no-await-in-loop
       await delay(1000)
     }

@@ -59,10 +59,9 @@
       }
     },
     "hooks": {
-      "state_manager:create": "./dist/hooks/state_manager/create",
-      "state_manager:delete": "./dist/hooks/state_manager/delete",
-      "state_manager:retrieve": "./dist/hooks/state_manager/retrieve",
-      "state_manager:update": "./dist/hooks/state_manager/update"
+      "state-manager:create": "./dist/hooks/state-manager/state-manager-create",
+      "state-manager:retrieve": "./dist/hooks/state-manager/state-manager-retrieve",
+      "state-manager:update": "./dist/hooks/state-manager/state-manager-update"
     }
   },
   "repository": "oclif/hello-world",
