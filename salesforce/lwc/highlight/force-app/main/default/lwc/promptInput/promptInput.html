@@ -1,0 +1,30 @@
+<template>
+  <lightning-card label="Enter code here" hide-header="true">
+    <lightning-button
+      icon-name="utility:einstein"
+      alternative-text="Einstein atom particle"
+      label="Highlight"
+      title="Highlight"
+      slot="actions"
+      onclick={handleButtonClick}
+      variant="brand"
+    ></lightning-button>
+    <div class="slds-p-horizontal_medium">
+      <lightning-combobox
+        name="language"
+        label="Language"
+        value={languageValue}
+        placeholder="Select Language"
+        options={languageOptions}
+        onchange={handleChangeLanguage}
+      ></lightning-combobox>
+
+      <lightning-textarea
+        class="slds-text-font_monospace"
+        name="input1"
+        label="Enter code for highlighting"
+        onchange={handleChange}
+      ></lightning-textarea>
+    </div>
+  </lightning-card>
+</template>

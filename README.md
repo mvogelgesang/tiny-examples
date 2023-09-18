@@ -29,12 +29,17 @@ Example showing how to construct a View along with an SVG element that caps the 
 
 ## [Salesforce](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce)
 
-### [Aura](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/child-parent-nav-click)
+### [Aura](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/aura)
 
-#### [Child to Parent Navigation Click Handling](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/child-parent-nav-click)
+#### [Child to Parent Navigation Click Handling](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/aura/child-parent-nav-click)
 
 A brief example to demonstrate how to handle click events for Navigation Menus when employing parent and child components. This is based off the content on [salesforcepoint.com](https://www.salesforcepoint.com/2020/12/how-to-pass-values-from-child-to-parent.html).
 
+### [LWC](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/lwc)
+
+#### [Highlight](https://github.com/mvogelgesang/tiny-examples/tree/main/salesforce/lwc/highlight)
+
+Component accepts a block of code along with name of programming language and renders code with highlighting courtesy of [highlightjs](https://highlightjs.org/). User can configure default theme or select desired theme within component.
 ## [Typescript](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript)
 
 ### [CLI Resume Activity](https://github.com/mvogelgesang/tiny-examples/tree/main/typescript/cli-resume-activity)

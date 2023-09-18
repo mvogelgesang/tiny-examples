@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title={title}>
+    <div class="slds-p-horizontal_medium">
+      <lightning-combobox
+        name="theme"
+        label="Theme"
+        value={themeValue}
+        placeholder="Select Theme"
+        options={themeOptions}
+        onchange={handleChangeTheme}
+      ></lightning-combobox>
+      <p>Browse themes by visiting <a href="https://highlightjs.org/static/demo/">highlightjs.org</a></p>
+    </div>
+    <pre class="slds-p-horizontal_medium">
+      <code class="hljs">
+        <div lwc:dom="manual" id="code">
+        </div>    
+      </code>
+    </pre>
+  </lightning-card>
+</template>
