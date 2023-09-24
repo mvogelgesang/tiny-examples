@@ -1,0 +1,38 @@
+<apex:page standardController="Account" extensions="accountController">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>{!greeting}</h1>
+
+
+  <apex:pageBlock title="Contacts" id="pageBlockId">
+    <apex:form>
+      <apex:pageBlockTable title="Edited Contacts" value="{!editedContacts}" var="item">
+        <apex:outputText>{!item.Id} - {!item.FirstName} {!item.LastName}</apex:outputText>
+      </apex:pageBlockTable>
+      <apex:pageBlockTable value="{!contacts}" var="item">
+
+        <apex:column headerValue="First Name" >
+          <apex:inputField value="{!item.FirstName}" >
+            <apex:actionSupport event="onchange" action="{!fieldChange}" reRender="pageBlockId"  />
+          </apex:inputField>
+        </apex:column>
+        <apex:column headerValue="Last Name" >
+          <apex:inputField value="{!item.LastName}"/>
+        </apex:column>
+        <apex:column headerValue="Phone" >
+          <apex:inputField value="{!item.Phone}"/>
+        </apex:column>
+        <apex:column headerValue="Email" >
+          <apex:inputField value="{!item.Email}" />
+        </apex:column>
+
+      </apex:pageBlockTable>
+      <apex:commandButton action="{!ssc.first}" title="First" value="First" reRender="pageBlockId"/>
+      <apex:commandButton action="{!ssc.previous}" title="Previous" value="Previous" reRender="pageBlockId"/> 
+      <apex:outputText>Page {!ssc.pageNumber} of {!ssc.resultSize/ssc.pageSize}</apex:outputText>
+      <apex:commandButton action="{!ssc.next}" title="Next" value="Next" reRender="pageBlockId"/>
+      <apex:commandButton action="{!ssc.last}" title="Last" value="Last" reRender="pageBlockId"/>
+
+
+    </apex:form>
+  </apex:pageBlock>
+</apex:page>
