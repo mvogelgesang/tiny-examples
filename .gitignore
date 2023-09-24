@@ -105,3 +105,8 @@ dist
 
 # Typescript
 dist/
+
+# Salesforce
+.pmdCache
+.sf
+.sfdx
