@@ -1,0 +1,35 @@
+<template>
+  <div class="slds-box slds-theme_default slds-p-around_medium">The following table iterates through the results of a getRecords wire call and displays the data in the table. An edit icon (pencil) is listed in each row and has a corresponding onClick handler to consume the Account Id of the current row. </div>
+  <template lwc:if={hasData}>
+    <div class="slds-theme_default">
+    <table class="tableTheme">
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Id</th>
+        <th>Phone</th>
+      </tr>
+
+      <template for:each={accountRecords} for:item="record">
+        <tr key={record.Id.value}>
+          <td>
+            <lightning-button-icon
+              icon-name="utility:edit"
+              alternative-text="Edit"
+              title="Edit"
+              label="Edit"
+              variant="border"
+              onclick={handleEdit}
+              key={record.Id.value}
+              data-id={record.Id.value}
+            ></lightning-button-icon>
+          </td>
+          <td>{record.Name.value}</td>
+          <td>{record.Id.value}</td>
+          <td>{record.Phone.value}</td>
+        </tr>
+      </template>
+    </table>
+  </div>
+  </template>
+</template>
